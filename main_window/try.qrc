@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>image stitch button.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>logo.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>updated bg.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>more info.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>main_bg.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>machine_button.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>ndvi_button.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>text.png</file>
+  </qresource>
+</RCC>

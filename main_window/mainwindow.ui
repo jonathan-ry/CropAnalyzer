@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>856</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>RICE TECH</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/newPrefix/logo.png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">image: url(:/newPrefix/main_bg.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">image: url(:/newPrefix/Software/image_processing/process_bg.png);</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetNoConstraint</enum>
+      </property>
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item row="2" column="1">
+       <layout class="QVBoxLayout" name="verticalLayout_3"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="machineButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	image: url(:/newPrefix/machine_button.png);
+	background-color: rgb(166, 197, 103);
+	border-width: 2px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: black;
+	padding: 4px;
+}
+QPushButton:hover {
+	image: url(:/newPrefix/machine_button.png);
+	background-color: rgb(176, 197, 143);
+}
+QPushButton:pressed {
+	image: url(:/newPrefix/machine_button.png);
+	background-color: rgb(151, 197, 76);
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="stitchButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	image: url(:/newPrefix/image stitch button.png);
+	background-color: rgb(166, 197, 103);
+	border-width: 2px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: black;
+	padding: 4px;
+}
+QPushButton:hover {
+	image: url(:/newPrefix/image stitch button.png);
+	background-color: rgb(176, 197, 143);
+}
+QPushButton:pressed {
+	image: url(:/newPrefix/image stitch button.png);
+	background-color: rgb(151, 197, 76);
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="ndviButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	image: url(:/newPrefix/ndvi_button.png);
+	background-color: rgb(166, 197, 103);
+	border-width: 2px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: black;
+	padding: 4px;
+}
+QPushButton:hover {
+	image: url(:/newPrefix/ndvi_button.png);
+	background-color: rgb(176, 197, 143);
+}
+QPushButton:pressed {
+	image: url(:/newPrefix/ndvi_button.png);
+	background-color: rgb(151, 197, 76);
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="moreButton">
+        <property name="minimumSize">
+         <size>
+          <width>20</width>
+          <height>55</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	image: url(:/newPrefix/more info.png);
+	background-color: rgb(166, 197, 103);
+	border-width: 2px;
+	border-style: outset;
+	border-radius: 25px;
+	border-color: black;
+	padding: 4px;
+}
+QPushButton:hover {
+	image: url(:/newPrefix/more info.png);;
+	background-color: rgb(176, 197, 143);
+}
+QPushButton:pressed {
+	image: url(:/newPrefix/more info.png);
+	background-color: rgb(151, 197, 76);
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="try.qrc"/>
+ </resources>
+ <connections/>
+</ui>

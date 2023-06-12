@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>ndvi bg.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>logo.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>proceed.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>upload.png</file>
+  </qresource>
+</RCC>
